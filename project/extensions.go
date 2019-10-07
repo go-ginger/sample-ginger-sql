@@ -1,11 +1,11 @@
 package project
 
-type Extensions struct {
+type extensions struct {
 }
 
-var extensions Extensions
+var Extensions extensions
 
 func init() {
-	extensions = Extensions{
+	Extensions = extensions{
 	}
 }
